@@ -17,7 +17,14 @@
       <link>https://lorenzobracciale.github.io/courses/network-softwarization/main/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://lorenzobracciale.github.io/courses/network-softwarization/main/</guid>
-      <description>&lt;p&gt;Under construction&lt;/p&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;Introduction to the ML environment: Colab, numpy, conda&lt;/li&gt;
+&lt;li&gt;Data manipulation with pandas &lt;a href=&#34;https://lorenzobracciale.github.io/courses/network-softwarization/pandas_tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Data visualiztion with seaborn matplotlib, and networkx&lt;/li&gt;
+&lt;li&gt;Exploratory Data Analysis (EDA) on a network trace&lt;/li&gt;
+&lt;li&gt;Classification of encrypted flows for intrusion detection &lt;a href=&#34;https://lorenzobracciale.github.io/courses/network-softwarization/intrusion_detection/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
