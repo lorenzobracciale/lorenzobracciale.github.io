@@ -1,34 +1,383 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Academic</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Lorenzo Bracciale</title>
+    <link>https://lorenzobracciale.github.io/publication/</link>
+      <atom:link href="https://lorenzobracciale.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lorenzobracciale.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://lorenzobracciale.github.io/publication/</link>
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A Privacy-Preserving Blockchain Solution to Support Demand Response in Energy Trading</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2022677/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2022677/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote tracking of Galápagos pink land iguana reveals large elevational shifts in habitat use</title>
+      <link>https://lorenzobracciale.github.io/publication/colosimo-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/colosimo-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABEBox: A data driven access control for securing public cloud storage with efficient key revocation</title>
+      <link>https://lorenzobracciale.github.io/publication/raso-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/raso-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-assisted peer review</title>
+      <link>https://lorenzobracciale.github.io/publication/checco-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/checco-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance Monitoring with Ĥ2: Hybrid Kernel/eBPF data plane for SRv6 based Hybrid SDN</title>
+      <link>https://lorenzobracciale.github.io/publication/mayer-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/mayer-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SRv6-PM: A Cloud-Native Architecture for Performance Monitoring of SRv6 Networks</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-2021611/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-2021611/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TooLate: Cryptographic Data Access Control for Offline Devices through Efficient Key Rotation</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-202157/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-202157/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessment and validation of miniaturized technology for the remote tracking of critically endangered Galápagos pink land iguana (Conolophus marthae)</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoProtect: Collaborative management of cryptographic keys for data security in cloud systems</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2020361/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2020361/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facilitating GDPR Compliance: The H2020 BPR4GDPR Approach</title>
+      <link>https://lorenzobracciale.github.io/publication/lioudakis-202072/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/lioudakis-202072/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyapunov Drift-Plus-Penalty Optimization for Queues with Finite Capacity</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-20202555/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-20202555/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimized Neighbor Discovery for Opportunistic Networks of Energy Constrained IoT Devices</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-20201387/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-20201387/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of data persistence in collaborative content creation systems: The Wikipedia Case</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightweight named object: An ICN-based abstraction for IoT device programming and management</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-20195029/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-20195029/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StableSENS: Sampling Time Decision Algorithm for IoT Energy Harvesting Devices</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-20199908/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-20199908/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The design of an energy harvesting wireless sensor node for tracking pink iguanas</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cluster-based scalable router for information centric networks</title>
+      <link>https://lorenzobracciale.github.io/publication/detti-201824/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/detti-201824/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An online approach for joint task assignment and worker evaluation in crowd-sourcing</title>
+      <link>https://lorenzobracciale.github.io/publication/carusi-201894/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/carusi-201894/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling LRU cache with invalidation</title>
+      <link>https://lorenzobracciale.github.io/publication/detti-201855/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/detti-201855/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance analysis of hybrid optical-acoustic AUV swarms for marine monitoring</title>
+      <link>https://lorenzobracciale.github.io/publication/lodovisi-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/lodovisi-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Push attack: Binding virtual and real identities using mobile push notifications</title>
+      <link>https://lorenzobracciale.github.io/publication/loreti-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/loreti-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An online approach for joint task assignment and worker evaluation in crowd-sourcing</title>
+      <link>https://lorenzobracciale.github.io/publication/bianchi-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bianchi-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application of Information Centric Networking to NoSQL databases: The spatio-temporal use case</title>
+      <link>https://lorenzobracciale.github.io/publication/detti-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/detti-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay tolerant wireless sensor network for animal monitoring: The Pink Iguana case</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-201718/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-201718/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMARTSOS: Systems for maritime advanced rescue through satellite and optimized sensor networks</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opportunistic communication in smart city: Experimental insight with small-scale taxi fleets as data carriers</title>
+      <link>https://lorenzobracciale.github.io/publication/bonola-201643/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bonola-201643/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The one-out-of-kretrieval problem and linear network coding</title>
+      <link>https://lorenzobracciale.github.io/publication/bianchi-201695/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bianchi-201695/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Sleepy Bird Catches More Worms: Revisiting Energy Efficient Neighbor Discovery</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-20161812/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-20161812/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance assessment of an epidemic protocol in VANET using real traces</title>
+      <link>https://lorenzobracciale.github.io/publication/amici-201492/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/amici-201492/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating the statistics of the first meetings using dynamic &#39;open environments&#39;</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2014229/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2014229/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human time-scale duty cycle for opportunistic WiFi based mobile networks</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better than nothing privacy with bloom filters: To what extent?</title>
+      <link>https://lorenzobracciale.github.io/publication/bianchi-2012348/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bianchi-2012348/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A topic-based, publish-subscribe architecture for intermittently connected 802.15.4 networks</title>
+      <link>https://lorenzobracciale.github.io/publication/battaglino-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/battaglino-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campus&#43;&#43;: A publish-subscribe architecture for intermittently connected 802.15.4 networks</title>
+      <link>https://lorenzobracciale.github.io/publication/battaglino-2011164/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/battaglino-2011164/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delay performance of a Publish Subscribe system deployed over a memory-constrained, Delay Tolerant Network</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-201125/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-201125/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design, implementation and performance evaluation of a publish-subscribe architecture for intermittently connected 802.15.4 networks</title>
+      <link>https://lorenzobracciale.github.io/publication/battaglino-2011105/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/battaglino-2011105/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPv6 solutions enabling mobile services for the “Internet of things”</title>
+      <link>https://lorenzobracciale.github.io/publication/lo-piccolo-201063/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/lo-piccolo-201063/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the IP support in IEEE 802.15.4 LR-WPANs: Self-configuring solutions for real application scenarios</title>
+      <link>https://lorenzobracciale.github.io/publication/lo-piccolo-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/lo-piccolo-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust data replication algorithm for MANETs with obstacles and node failures</title>
+      <link>https://lorenzobracciale.github.io/publication/detti-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/detti-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streamline: An optimal distribution algorithm for peer-to-peer real-time streaming</title>
+      <link>https://lorenzobracciale.github.io/publication/bianchi-2010857/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bianchi-2010857/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fundamental delay bounds in peer-to-peer chunk-based real-time streaming systems</title>
+      <link>https://lorenzobracciale.github.io/publication/bianchi-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bianchi-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards fully ip-enabled ieee 802.15.4 LR-WPANs</title>
+      <link>https://lorenzobracciale.github.io/publication/piccolo-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/piccolo-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A push-based scheduling algorithm for large scale P2P live streaming</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-20081/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-20081/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A theory-driven distribution algorithm for peer-to-peer real time streaming</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-20082291/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-20082291/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OPSS: An Overlay Peer-to-peer Streaming Simulator for large-scale networks</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-200725/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-200725/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation of Peer-to-peer streaming over large-scale networks using OPSS</title>
+      <link>https://lorenzobracciale.github.io/publication/bracciale-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/publication/bracciale-2007/</guid>
+      <description></description>
     </item>
     
   </channel>
