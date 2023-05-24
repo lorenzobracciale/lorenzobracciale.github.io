@@ -65,13 +65,9 @@
   
   
   
-    
-    
-    
-  
   
 
-  <meta name="author" content="Lorenzo Bracciale" />
+  
 
   
   
@@ -325,10 +321,10 @@ Data manipulation with pandas This is a short tutorial on main Pandas functions.
     
       <meta
         property="article:published_time"
-        content="2022-09-17T00:00:00&#43;00:00"
+        content="2022-09-19T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-09-17T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-09-19T00:00:00&#43;00:00">
   
 
   
@@ -670,8 +666,6 @@ Data manipulation with pandas This is a short tutorial on main Pandas functions.
       <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
 
         
-        
-          
         
 
         
@@ -1094,20 +1088,20 @@ Name: A, dtype: int64
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">** Second column **&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">2</span><span class="p">])</span> 
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">])</span> 
 </span></span></code></pre></div><pre><code>** First row **
 A    1
-B    3
-C    5
+B    4
 Name: X, dtype: int64
 
  ** First row, First column **
 1
 
 ** Second column **
-X    5
-Y    6
-Name: C, dtype: int64
+X    4
+Y    5
+Z    6
+Name: B, dtype: int64
 </code></pre>
 <p>Or use <em>label-based</em> selection with <code>loc</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">]</span>
@@ -1483,9 +1477,8 @@ Name: C, dtype: int64
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span> <span class="c1"># to watch all the dtypes</span>
 </span></span></code></pre></div><pre><code>A     int64
 B     int64
-C     int64
-F    object
 D    object
+C     int64
 dtype: object
 </code></pre>
 <p>We can change the datatype with astype. For instance:</p>
@@ -1724,15 +1717,9 @@ Concat of DF1 and DF2
 <li><code>axis=1</code>: means &ldquo;do that for columns&rdquo;</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df1</span><span class="p">,</span> <span class="n">df2</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span> <span class="c1">#concat the columns</span>
-</span></span></code></pre></div><pre><code>---------------------------------------------------------------------------
-
-NameError                                 Traceback (most recent call last)
-
-Input In [66], in &lt;cell line: 1&gt;()
-----&gt; 1 print(pd.concat([df1, df2], axis=1))
-
-
-NameError: name 'df1' is not defined
+</span></span></code></pre></div><pre><code>    A   B   C   A   B   C
+0  AO  B0  C0  A2  B2  C2
+1  A1  B1  C1  A3  B3  C3
 </code></pre>
 <p><code>merge</code> is more complicated since there are many forms of join:</p>
 <ul>
@@ -1767,17 +1754,17 @@ NameError: name 'df1' is not defined
 </span></span><span class="line"><span class="cl"><span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span><span class="p">],</span> <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]})</span>
 </span></span><span class="line"><span class="cl"><span class="n">df2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="s1">&#39;baz&#39;</span><span class="p">],</span> <span class="s1">&#39;c&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]})</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;DF1&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;DataFrame1&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">DF2&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">DataFrame2&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df2</span><span class="p">)</span>
-</span></span></code></pre></div><pre><code>DF1
+</span></span></code></pre></div><pre><code>DataFrame1
      a  b
 0  foo  1
 1  bar  2
 
-DF2
+DataFrame2
      a  c
 0  foo  3
 1  baz  4
@@ -2080,7 +2067,7 @@ DF2
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 17, 2022</p>
+          <p>Last updated on Sep 19, 2022</p>
 
           
 
@@ -2144,7 +2131,7 @@ DF2
 
   
   <p class="powered-by copyright-license-text">
-    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
