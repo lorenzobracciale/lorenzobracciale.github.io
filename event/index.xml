@@ -5,12 +5,20 @@
     <link>https://lorenzobracciale.github.io/event/</link>
       <atom:link href="https://lorenzobracciale.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 09:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 12:30:00 +0000</lastBuildDate>
     <image>
       <url>https://lorenzobracciale.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://lorenzobracciale.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Lo stato di salute della sanità digitale in Italia</title>
+      <link>https://lorenzobracciale.github.io/talk/lo-stato-di-salute-della-sanita-digitale-in-italia/</link>
+      <pubDate>Wed, 07 Jun 2023 12:30:00 +0000</pubDate>
+      <guid>https://lorenzobracciale.github.io/talk/lo-stato-di-salute-della-sanita-digitale-in-italia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dall&#39;osservatorio alla definizione di un indice di rischio ospedaliero</title>
